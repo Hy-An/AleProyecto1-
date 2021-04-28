@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    size: 300 300;
+}
+
+.comicsG {
+    width: 150px;
+    height: 200px;
+}
+
+
+body {
+    background-image: url(img/bg.jpg);
+    font-family: 'Manjari', sans-serif;
+
+    }
+
+.container {
+    background-image: #fff;
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+
+    display: grid;
+    gap: 1.6em;
+}    
