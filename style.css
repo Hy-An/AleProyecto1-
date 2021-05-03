@@ -38,12 +38,14 @@ body {
     grid-template-columns: repeat(5, 1fr);
 }  
 
+/* PARA HEADER, CONTENT, SIDEBAR, ETC. QUE ESTA DENTRO DE CONTAINER  */
+
 .container > .header,
 .container > .content,
 .container > .sidebar,
 .container > .footer,
 .container > div {
-    background: #fff;
+    background: #FFC333;
     padding: 20px;
     border: 1px solid #000000;
 }
@@ -57,5 +59,9 @@ body {
 
 .container > .content{
     grid-column: span 3;
+} 
+
+.container > .sidebar{
+    grid-column: span 2;
 } 
 
