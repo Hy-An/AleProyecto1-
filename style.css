@@ -10,15 +10,15 @@
 }
 
 ul.slider {
-    position:relative; /*Necesitamos que el ul sea relativo*/
+    position:relative; 
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 ul.slider li {
-    opacity: 0; /*Ocultamos todos los <li>*/
+    opacity: 0; 
     transition: opacity .5s;
-    position: absolute; /*Posicionamos en absoluto los <li>*/
+    position: absolute; 
     left: 0px;
     top: 0px;
     background: #FFC300;
@@ -27,10 +27,10 @@ ul.slider li {
     
 }
 ul.slider li:first-child {
-    opacity: 1; /*Mostramos el primer <li>*/
+    opacity: 1; 
 }
 ul.slider li:target {
-    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+    opacity: 1; 
 }
 nav {
     position:relative;
@@ -82,6 +82,10 @@ img {
 }
 
 /* HEADER */
+.headercontainer {
+    display: flex;
+    flex-direction: column;
+}
 
 .title h1{
     padding: 20px 0;
@@ -90,15 +94,15 @@ img {
 } 
 
 
-
-    
-
-
 body {
     background-image: url(img/bg.jpg);
     font-family: 'Manjari', sans-serif;
 
     }
+.bigcontainer {
+    display: flex;
+    flex-direction: column;
+}    
 
 .container {
     background: #FFC300;
@@ -108,7 +112,7 @@ body {
     border: 3px black solid;
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 20px;
     
 }  
 
@@ -120,12 +124,13 @@ body {
     max-width: 100vh;
     margin: 1em auto;
     border: 3px black solid;
-    padding: 10px;
+    padding: 20px;
     background: #FFC300;
 }
 
 .relatedPostChild {
     max-width: fit-content;
+    
     
 
 }
