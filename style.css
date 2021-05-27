@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
 }
+
 .header {
   background-color: #24252a;
-  display: flex;
-  width: 1100px;
-  flex-grow: inherit;
+  width: 1240px;
+  position: relative;
+  left: -50px;
+  top: -50px;
 }
 .logo {
   font-weight: 900;
